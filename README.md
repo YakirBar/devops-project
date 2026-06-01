@@ -6,10 +6,10 @@ In this project you will build a complete cloud-native platform that includes:
 
 * 🌐 Frontend Application
 * ⚙️ Backend API
-* 🗄 Database
-* 🐳 Docker
+* 🗄 Database - create at least 2 users (ReadOnly, ReadWrite)
+* 🐳 Docker - dont use root user - nice to have
 * ☸️ Kubernetes
-* 📦 Nexus Repository
+* 📦 Nexus Repository - (Bonus Scanner - ask Yakir 08/06)
 * 🧪 Jenkins
 * 🚀 ArgoCD
 * 📊 ELK Stack
@@ -81,7 +81,7 @@ Develop a backend application using:
 
 ---
 
-### Function 1 – Create Reservation
+### Function 1 – Create Reservation (ReadWrite User)
 
 The backend must:
 
@@ -92,7 +92,7 @@ The backend must:
 
 ---
 
-### Function 2 – Reservation Lookup
+### Function 2 – Reservation Lookup (ReadOnly User)
 
 The backend must:
 
@@ -102,7 +102,7 @@ The backend must:
 
 ---
 
-### Function 3 – Cancel Reservation
+### Function 3 – Cancel Reservation (ReadWrite User)
 
 The backend must:
 
