@@ -211,7 +211,7 @@ Use:
 #### Database
 
 ```text
-2 Replicas
+3 Replicas
 ```
 
 ---
